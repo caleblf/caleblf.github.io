@@ -1,22 +1,29 @@
 /* comment */
+body {
+    /**/
+    background-color: lightgray;
+    font-family: "Lucida Console", Monaco, monospace;
+}
 sidebar {
     position: fixed;
     left: 0;
     top: 0;
     z-index: -1;
-    width: 200px;
+    width: 100px;
     height: 100%;
     background-color: royalblue;
     border-right: 2px outset royalblue;
     overflow-x: hidden;
 }
-#content-area {
-    background-color: lightgray;
-    left: 200px;
-    min-height: 100%;
+#main {
+    margin-left: 200px;
+    padding: 15px;
 }
-#resume, bio {
-    background-color: lime;
+sidebar a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
     border-radius: 50%;
     border: 2px inset royalblue;
     text-align: center;
