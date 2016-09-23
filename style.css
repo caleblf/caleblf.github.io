@@ -1,10 +1,14 @@
 /* comment */
 sidebar {
+    position: fixed;
     left: 0;
+    top: 0;
+    z-index: -1;
     width: 200px;
     height: 100%;
     background-color: royalblue;
     border-right: 2px outset royalblue;
+    overflow-x: hidden;
 }
 #content-area {
     background-color: lightgray;
