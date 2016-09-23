@@ -1,0 +1,20 @@
+/* comment */
+sidebar {
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: royalblue;
+    border-right: 2px outset royalblue;
+}
+#content-area {
+    background-color: lightgray;
+    left: 200px;
+    min-height: 100%;
+}
+#resume, bio {
+    background-color: lime;
+    border-radius: 50%;
+    border: 2px inset royalblue;
+    text-align: center;
+    vertical-align: center;
+}
