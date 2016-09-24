@@ -3,7 +3,7 @@ body {
     background-color: lightgray;
     font-family: "Lucida Console", Monaco, monospace;
 }
-sidebar {
+nav {
     text-align: center;
     padding: 25px;
     position: fixed;
