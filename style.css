@@ -36,6 +36,7 @@ sidebar a + a {
 .frame {
     border: 2px outset royalblue;
     padding: 10px;
+    background-color: royalblue;
 }
 img {
     border: 2px inset royalblue;
