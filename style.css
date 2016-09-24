@@ -19,6 +19,8 @@ nav {
 #main {
     margin-left: 100px;
     padding: 15px;
+    z-index: 2;
+    background-color: yellow;
 }
 nav a {
     display: block;
