@@ -12,7 +12,7 @@ sidebar {
     z-index: 1;
     height: 100%;
     background-color: royalblue;
-    border-right: 2px outset royalblue;
+    border-right: 5px outset royalblue;
     overflow-x: hidden;
 }
 #main {
@@ -25,7 +25,7 @@ sidebar a {
     width: 50px;
     background-color: lightgray;
     border-radius: 50%;
-    border: 2px inset royalblue;
+    border: 5px inset royalblue;
     font-size: 12px;
     line-height: 50px;
     overflow: hidden;
@@ -35,10 +35,10 @@ sidebar a + a {
 }
 .frame {
     display: inline-block;
-    border: 2px outset royalblue;
+    border: 5px outset royalblue;
     padding: 10px;
     background-color: royalblue;
 }
 img {
-    border: 2px inset royalblue;
+    border: 5px inset royalblue;
 }
