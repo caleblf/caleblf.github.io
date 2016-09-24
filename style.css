@@ -33,6 +33,10 @@ sidebar a {
 sidebar a + a {
     margin-top: 25px;
 }
+#frame {
+    border: 2px outset royalblue;
+    padding: 10px;
+}
 img {
-    border: 8px solid royalblue;
+    border: 2px inset royalblue;
 }
