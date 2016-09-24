@@ -34,6 +34,7 @@ sidebar a + a {
     margin-top: 25px;
 }
 .frame {
+    display: inline-block;
     border: 2px outset royalblue;
     padding: 10px;
     background-color: royalblue;
