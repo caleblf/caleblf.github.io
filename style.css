@@ -33,7 +33,7 @@ sidebar a {
 sidebar a + a {
     margin-top: 25px;
 }
-#frame {
+.frame {
     border: 2px outset royalblue;
     padding: 10px;
 }
