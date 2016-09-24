@@ -6,7 +6,7 @@ body {
 }
 nav {
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     position: fixed;
     left: 0;
     top: 0;
@@ -38,7 +38,7 @@ nav a:hover {
     background-color: white;
 }
 nav a + a {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .frame {
     display: inline-block;
