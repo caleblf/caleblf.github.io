@@ -19,8 +19,6 @@ nav {
 #main {
     margin-left: 100px;
     padding: 15px;
-    z-index: 2;
-    background-color: yellow;
 }
 nav a {
     display: block;
@@ -39,7 +37,7 @@ nav a {
 nav a:hover {
     background-color: white;
 }
-nav a + a {
+nav > a + a {
     margin-top: 20px;
 }
 .frame {
@@ -48,6 +46,6 @@ nav a + a {
     padding: 10px;
     background-color: royalblue;
 }
-img {
+.frame > img {
     border: 3px inset royalblue;
 }
