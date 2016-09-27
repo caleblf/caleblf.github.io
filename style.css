@@ -21,7 +21,7 @@ nav {
     max-width: 900px;
     padding: 15px;
 }
-nav a {
+nav > a {
     display: block;
     height: 50px;
     width: 50px;
@@ -35,7 +35,7 @@ nav a {
     line-height: 50px;
     text-decoration: none;
 }
-nav a:hover {
+nav > a:hover {
     background-color: white;
 }
 nav > a + a {
