@@ -1,3 +1,5 @@
+/* Page Layout and Fonts */
+
 * {
     box-sizing: border-box;
 }
@@ -8,7 +10,7 @@ html, body {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -17,6 +19,34 @@ body {
     width: 100%;
     max-width: 50em;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Vollkorn", Georgia, serif;
+    font-weight: normal;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+.resume > h1, .resume > h2, .resume > h3 {
+    text-align: left;
+}
+
+button, input, select, textarea {
+    color: black;
+    font-size: initial;
+    font-family: "Lato", Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+optgroup, option {
+    font-family: "Lato", Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.main {
+    width: 100%;
+}
+
+/*  Navigation */
 
 nav {
     display: flex;
@@ -40,6 +70,8 @@ nav > a:hover {
     background-color: turquoise;
 }
 
+/* Elements */
+
 .frame {
     display: inline-block;
     border: 3px outset #eee;
@@ -49,4 +81,33 @@ nav > a:hover {
 }
 .frame > img {
     border: 3px inset #eee;
+}
+
+.responsive-row {
+    /* For fixed-size content next to flexible content */
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.responsive-text {
+    /* Wrap to next line if there's not enough space */
+    min-width: 50%;
+}
+
+.projects-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.project {
+    max-width: 15em;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.project-thumbnail {
+    width: 100%;
 }
