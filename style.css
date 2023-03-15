@@ -15,9 +15,18 @@ body {
     flex-flow: column;
     align-items: center;
     margin: 0 auto;
-    padding: 1em;
+    padding-inline: 1rem;
     width: 100%;
-    max-width: 50em;
+    max-width: 50rem;
+}
+
+p, ul {
+    margin-block: 0.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,7 +84,7 @@ nav > a:hover {
 .frame {
     display: inline-block;
     border: 3px outset #eee;
-    padding: 0.8em;
+    padding: 0.8rem;
     background-color: #eee;
     line-height: 0;
 }
@@ -99,16 +108,18 @@ nav > a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: stretch;
+    gap: 1rem;
 }
 
 .project {
-    max-width: 15em;
-    margin: 1em;
+    width: 15rem;
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
 
 .project-thumbnail {
-    width: 100%;
+    max-width: 15rem;
+    max-height: 10rem;
+    width: auto;
 }
